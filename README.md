@@ -42,7 +42,9 @@ Section Name    start_time  stop_time    meta_data
 
 `start_time` must be in either `HH:MM:SS` or `MM:SS` time
 format. `stop_time` must be either in one of those time formats OR it
-may be `-` which is taken to mean 'end of the input file.'
+may be `-` which is taken to mean 'end of the input file.' The
+`meta_data` field is currently ignored but could be used for simple
+quantitative analysis based on keywords entered for each segment.
 
 # Todo
 
